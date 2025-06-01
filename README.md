@@ -70,7 +70,4 @@ This project establishes a secure, cost-effective, and scalable VPN tunnel betwe
 
 ---
 
-## 🔧 Future Enhancements
-- Automate setup using Terraform
-- Add cross-cloud monitoring alerts
-- Integrate traffic logs into centralized SIEM
+
