@@ -1,0 +1,24 @@
+# Azure Configuration
+azure_vnet:
+  name: azure-vnet
+  address_space: 10.0.0.0/16
+  subnet:
+    name: azure-subnet
+    address_prefix: 10.0.1.0/24
+  vpn_gateway:
+    name: AzureVPNGateway
+    public_ip: 52.188.184.10
+    type: RouteBased
+
+# AWS Configuration
+aws_vpc:
+  name: aws-vpc
+  cidr_block: 10.1.0.0/16
+  subnet:
+    name: aws-subnet
+    cidr_block: 10.1.1.0/24
+  vpn:
+    type: Site-to-Site
+    tunnel_1: UP
+    tunnel_2: UP
+    customer_gateway_ip: 52.188.184.10
